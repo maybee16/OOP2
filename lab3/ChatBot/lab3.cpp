@@ -1,4 +1,4 @@
-#include "chatbot.h"
+#include "lab3.h"
 #include "ui_chatbot.h"
 
 ChatBot::ChatBot(QWidget *parent)

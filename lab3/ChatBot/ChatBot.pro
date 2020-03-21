@@ -16,14 +16,23 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    main.cpp \
-    chatbot.cpp
+    ../../../OOP/lab7/Calculator/calculator.cpp \
+    Authorization.cpp \
+    Chatbot.cpp \
+    Username.cpp \
+    lab3.cpp \
+    main.cpp
 
 HEADERS += \
-    chatbot.h
+    ../../../OOP/lab7/Calculator/calculator.h \
+    Authorization.h \
+    Chatbot.h \
+    Username.h \
+    lab3.h
 
 FORMS += \
-    chatbot.ui
+    Authorization.ui \
+    lab3.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
